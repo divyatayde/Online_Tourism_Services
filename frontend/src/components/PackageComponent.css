@@ -1,0 +1,39 @@
+.hoteldiv{
+    background-color: white;
+    text-align: left;
+    margin: 4%;
+    border-radius: 5%;
+    box-shadow: 3px 3px 10px black;
+}
+
+#hotelImage{
+    height: 50%;
+    width: 100%;
+    padding: 3%;
+}
+ .title{
+     color:blueviolet;
+     font-weight: bolder;
+     text-align: center;
+ }
+
+ .address{
+    color: gray;
+    padding-left: 5%;
+ }
+
+ .rating
+ {
+     color: yello;
+     padding-left: 5%;
+ }
+
+ .price
+ {
+     color: lightblue;
+     padding-left: 5%;
+ }
+  .price1{
+      color:blue;
+      font-size: 1.5em;
+  }

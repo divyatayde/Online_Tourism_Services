@@ -1,0 +1,77 @@
+.wel-image {
+    background-image: url("../../assets/Travel4.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 85vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    animation-name: fade-in;
+    animation-duration: 2s;
+    color: white;
+  }
+
+  .weltextMain
+  {
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-shadow: 3px 3px 4px #000000;
+    position: relative;
+    top: 45%;
+    animation: zoom-in 2s ease-in;
+
+  }
+
+  .weltextSub
+  {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    position: relative;
+    top: 40%;
+    animation: topslidein 3s ease;
+  }
+
+  .form_block{
+    position: relative;
+    margin-top: 30px;
+  }
+
+
+  @keyframes zoom-in {
+    0%{transform: scale(0, 0);}
+    20% {transform: scale(0.2, 0.2);}
+    40% {transform: scale(0.4, 0.4);}
+    45% {transform: scale(0.45, 0.45);}
+    50% {transform: scale(0.5, 0.5);}
+    55% {transform: scale(0.55, 0.55);}
+    60% {transform: scale(0.6, 0.6);}
+    65% {transform: scale(0.65, 0.65);}
+    70% {transform: scale(0.7, 0.7);}
+    75% {transform: scale(0.75, 0.75);}
+    80% {transform: scale(0.8, 0.8);}
+    85% {transform: scale(0.85, 0.85);}
+    90% {transform: scale(0.9, 0.9);}
+    95% {transform: scale(0.95, 0.95);}
+    100% {transform: scale(1, 1);}
+  }
+
+  @keyframes fade-in {
+    0%  {opacity: 0%;}
+    10%  {opacity: 10%;}
+    20%  {opacity: 20%;}
+    30%  {opacity: 30%;}
+    40%  {opacity: 40%;}
+    50%  {opacity: 50%;}
+    60%  {opacity: 60%;}
+    70%  {opacity: 70%;}
+    80%  {opacity: 80%;}
+    90%  {opacity: 90%;}
+    100% {opacity: 100%;}
+  }
+
+  @keyframes topslidein{
+    from { top: -180%; }
+    to   { top: 40%; }
+  }

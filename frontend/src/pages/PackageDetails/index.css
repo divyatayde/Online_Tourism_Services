@@ -1,0 +1,42 @@
+.outer-div{
+    padding: 2%;
+    margin-top: 5%;
+    color: black;
+    border: 2px solid black;
+}
+
+.inner-div{
+    padding: 2%;
+    margin: 2% ;
+    background-color: RGB(152, 180, 212);
+}
+
+#hotel-images{
+    width: 100%;
+    padding: 3%;
+    
+}
+
+#title{
+    color: #34568B ;
+}
+
+.amenitiesImg
+{
+    height: 35px;
+    width: 35px;
+    padding: 4px;
+    margin: 4px;
+}
+
+.Reviews{
+
+    padding: 2%;
+    margin: 2% ;
+    background-color: RGB(152, 180, 212);
+}
+
+.label-control1
+{
+    font-size: 0.7em;
+}

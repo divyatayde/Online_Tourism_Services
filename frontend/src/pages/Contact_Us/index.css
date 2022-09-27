@@ -1,0 +1,21 @@
+h2{
+    text-align: center;
+    color: blueviolet;
+}
+
+.form-round{
+    border-radius: 25px;
+    padding: 20px; 
+    height: 15px; 
+}
+
+.msg{
+    height: 90%;
+}
+
+
+.btncontact{
+    border-radius: 25px;
+    width: 30%;
+    height: 10%; 
+}

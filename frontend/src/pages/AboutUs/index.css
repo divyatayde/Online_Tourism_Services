@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+/* .bgImage{
+    background-image: url("../../assets/contactus.jpg");
+    background-size: cover; 
+    height: 600px;
+} */
+
+.bgImg{
+    background-image: url("");
+    background-size: cover;
+    height: 700px;
+}
+
+.icons{
+    text-align: center;
+    border: 1px solid whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    height: 150px;
+    width: 250px;
+    background-color: white; 
+}
+
+.aboutUs{
+    text-align: center;
+    border: 1px solid whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    height: 200px;
+    width: 700px;
+    background-color: white; 
+}
